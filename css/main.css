@@ -4,7 +4,9 @@
 @media only screen and (min-width:768px) {
   [class*="col-"] {
     float: left;
-  }
+    background-color: #808080;
+}
+
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -24,6 +26,10 @@ body{
   background: #808080;
   color: #8b0000;
   margin: 0 auto;
+}
+
+#mainpage3col {
+  padding: 15px;
 }
 
 #ulmain {
@@ -64,11 +70,11 @@ body{
 }
 
 footer{
-  position: absolute;
+  position: fixed;
   bottom: 0;
   background-color: brown;
   text-align: center;
-  color: blue;
+  color: black;
   max-height: 100px;
   width: 100%
 }
