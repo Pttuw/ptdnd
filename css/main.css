@@ -28,7 +28,18 @@ body{
   margin: 0 auto;
 }
 
-#mainpage3col {
+#mainpageacol {
+  padding: 15px;
+}
+
+#mainpagebcol {
+  padding-top: 15px;
+}
+
+#mainpageccol {
+  background-color: brown;
+  color: black;
+  height: 2000px;
   padding: 15px;
 }
 
@@ -54,9 +65,9 @@ body{
 }
 
 #mainbanner {
-  background-color: black;
+  background-color: brown;
   text-align: center;
-  color: red;
+  color: black;
   font-size: 40px;
   height: 100px;
 }
@@ -67,6 +78,9 @@ body{
 }
 #ptmapssmall:hoover {
   box-shadow: 0 0 2px 1px black;
+}
+#charactermenu{
+  padding-left: 25px;
 }
 
 footer{
